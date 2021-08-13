@@ -13,7 +13,7 @@ export class npgDB {
     public client: Client;
 
     /**
-     * @name reconDB
+     * @name npgDB
      * @kind constructor
      * @param {reconDBOptions} options options to use the database
      */
@@ -65,7 +65,7 @@ export class npgDB {
      * @method
      * @param key They key you wish to delete
      * @description Removes data from mongodb
-     * @example <reconDB>.delete("test")
+     * @example <npgDB>.delete("test")
      */
     public delete(key) {
         if (!key) return;
